@@ -1,0 +1,90 @@
+### --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icon must end with two \r
+Icon?
+# Thumbnails
+._*
+# Files that might be created on a non-HFS volume
+.Spotlight-V100
+.Trashes
+
+### --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### --- Environments (Mamba/Conda/uv) ---
+# We ignore the actual environment folders because they are huge.
+# We recreate them using the lockfiles instead.
+.venv/
+venv/
+env/
+ENV/
+envs/
+.conda/
+conda-bld/
+
+### --- IMPORTANT: uv/Dependency Files ---
+# DO NOT ignore uv.lock or pyproject.toml. 
+# They must be committed to GitHub.
+# We only ignore the local tool settings if any:
+.uv/
+
+### --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Remove the line below if you WANT to commit notebook autosaves
+*.nib
+*.swp
+
+### --- Machine Learning / Data ---
+# Ignore large data files and model checkpoints
+data/
+outputs/
+results/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.weights
+*.bin
+lightning_logs/
+*.log
+tensorboard/
+
+### --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+### --- Secrets / Environment Variables ---
+.env
+.venv
+env.yaml
+auth.json
