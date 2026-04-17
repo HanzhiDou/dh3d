@@ -15,7 +15,7 @@ This project uses [uv](https://github.com/astral-sh/uv) for dependency managemen
    ```
 4. Evaluate the performance of a trained unet3d model for DIH:
    ```bash
-   unet3d/eval_unet3d.py
+   uv run unet3d/eval_unet3d.py
    ```
 5. Inspect one inference sample in Napari viewer:
    ```bash
